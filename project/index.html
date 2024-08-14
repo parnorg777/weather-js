@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image" href="images/1163661.png" />
+    <title>Погода</title>
+  </head>
+  <body>
+    <header>
+      <div id="error">
+        <div id="error-mess">Город не найден</div>
+        <button id="btn-close-error">
+          <img src="images/4219073.png" width="16px" />
+        </button>
+      </div>
+
+      <div id="change-city">
+        <img src="images/619.png" width="13px" id="img-g" />
+        <div id="city-container">Не указано</div>
+        <button id="btn-change-city">
+          <img src="images/2985150.png" width="13px" />
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <div id="search-container">
+        <h3>Узнать погоду</h3>
+        <div id="search">
+          <input type="text" placeholder="Введите город" id="search-inp" />
+          <button id="search-btn">
+            <img src="images/44514.png" width="14px" />
+          </button>
+        </div>
+      </div>
+
+      <div id="weather-container">
+        <div class="block" id="main-description">
+          <div id="div-1">
+            <div id="div-2">
+              <span id="temp">17°</span>
+              <h2>Сегодня</h2>
+            </div>
+            <img id="weather-icon" width="100px" />
+          </div>
+          <p id="weather">Облачно с прояснениями</p>
+        </div>
+        <div class="block" id="location">
+          <p>Погода:</p>
+          <h4 id="city">Москва</h4>
+        </div>
+        <div class="block" id="description">
+          <p id="speedWind">Скорость вертра: 5 м/с</p>
+          <p id="humidity">Влажность: 35%</p>
+          <p id="pressure">Давление: 1016 мм рт. ст</p>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

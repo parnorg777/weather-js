@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="b" x1="50%" x2="50%" y1="0%" y2="100%">
+   <stop offset="0%" stop-color="#9FC7FF"/>
+   <stop offset="100%" stop-color="#9BC1F5"/>
+  </linearGradient>
+  <radialGradient cx="55.585%" cy="10.083%" fx="55.585%" fy="10.083%" gradientTransform="matrix(0 -1 .719 0 .483 .657)" id="c" r="58.215%">
+   <stop offset="0%" stop-color="#486DA8" stop-opacity="0.4"/>
+   <stop offset="100%" stop-color="#486DA8" stop-opacity="0"/>
+  </radialGradient>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <g fill="none" id="svg_1">
+   <path d="m5.92,18.56c-2.75,0 -4.99,-2.24 -4.99,-5s2.23,-5 4.99,-5c0.52,0 1.02,0.08 1.5,0.22c0.7,-2.3 2.83,-3.97 5.36,-3.97c3.09,0 5.61,2.52 5.61,5.63c0,0.29 -0.02,0.58 -0.06,0.86c0.4,-0.15 0.85,-0.24 1.31,-0.24c2.07,0 3.74,1.68 3.74,3.75s-1.67,3.75 -3.74,3.75l-13.71,0z" fill="url(#b)" id="svg_4"/>
+   <path d="m7.17,10.44c0,3.1 2.52,5.63 5.61,5.63c2.8,0 5.14,-2.06 5.55,-4.76c0.4,-0.15 0.85,-0.24 1.31,-0.24c2.07,0 3.74,1.68 3.74,3.75s-1.67,3.75 -3.74,3.75l-13.71,0c-2.75,0 -4.99,-2.24 -4.99,-5s2.23,-5 4.99,-5c0.52,0 1.02,0.08 1.5,0.22c-0.16,0.53 -0.25,1.07 -0.25,1.65z" fill="url(#c)" id="svg_5"/>
+  </g>
+ </g>
+</svg>

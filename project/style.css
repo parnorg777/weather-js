@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+}
+
+body {
+  background-color: darkslateblue;
+  position: relative;
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  padding: 15px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#search-container {
+  width: 450px;
+  height: 150px;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+h3 {
+  text-align: center;
+}
+
+#search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 300px;
+  height: 35px;
+  box-sizing: border-box;
+  font-size: 1.05em;
+  padding-left: 20px;
+  align-self: center;
+  outline: none;
+  border: 2px lightgray solid;
+  border-right: none;
+  border-radius: 20px 0px 0px 20px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#search-btn {
+  border: 2px lightgray solid;
+  border-left: none;
+  width: 35px;
+  height: 35px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 0px 20px 20px 0px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#error {
+  width: 280px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: rgb(255, 101, 101);
+  display: flex;
+  align-items: center;
+  display: none;
+}
+
+#error-mess {
+  width: 88%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9em;
+}
+
+#btn-close-error {
+  width: 12%;
+  height: 100%;
+  border-radius: 0px 10px 10px 0px;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(255, 78, 78);
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#change-city {
+  width: 280px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+  display: none;
+}
+
+#img-g {
+  margin-left: 10px;
+}
+
+#city-container {
+  width: 88%;
+  height: 100%;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#img-container {
+  margin-right: auto;
+}
+
+#btn-change-city {
+  width: 12%;
+  height: 100%;
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 0px 10px 10px 0px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#weather-container {
+  background-color: white;
+  width: 450px;
+  height: 350px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  grid-template-rows: 200px 1fr;
+  gap: 10px;
+  display: none;
+}
+
+.block {
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.115);
+  border-radius: 15px;
+  background-color: white;
+}
+
+#main-description {
+  box-sizing: border-box;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#div-1 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+#div-2 span {
+  font-size: 3.5em;
+  color: cornflowerblue;
+}
+
+#description {
+  grid-column: 1 / 3;
+}
+
+#main-description p {
+  margin-top: 10px;
+  color: gray;
+}
+
+#location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#location p {
+  font-size: 1.2em;
+}
+
+#description {
+  padding: 15px;
+  color: gray;
+}
+
+#city {
+  font-size: 1.4em;
+}
+
+#location p {
+  color: gray;
+  font-size: 0.9em;
+}
